@@ -68,7 +68,7 @@ newMI <- function(direc, n = 6, delimiters = "\\W+", encoding = "UTF-8", cutoff.
 
   mi.df <- rbindlist(retain)
   mi.df <- mi.df[mi.df$MI >= cutoff.mi & mi.df$Frequency >= cutoff.freq, ]
-  return(mi.df)
+  return(data.frame(mi.df))
 }
 
 
