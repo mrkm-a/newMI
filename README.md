@@ -2,7 +2,7 @@ newMI()
 =====
 
 ### Description ###
-This is an R implementatin of the algorithm proposed in Wei &amp; Li (2013) published on *International Journal of Corpus Linguistics* ([Link to the paper](http://www.ingentaconnect.com/content/jbp/ijcl/2013/00000018/00000004/art00003)). The algorithm is an extention of MI score to 3- and higher *n*-grams and retrieves semantically meaningful phraseological sequences. You need to have installed the following packages for the function to work; *RWeka*, *tm*, and *data.table*. The function *newMI()* returns a data frame with the phraseological sequences identified through the algorithm, the *n* in *n*-grams, their absolute frequency, and their corresponding MI scores. Please see the original paper for the details of the algorithm.
+This is an R implementation of the algorithm proposed in Wei &amp; Li (2013) published on *International Journal of Corpus Linguistics* ([Link to the paper](http://www.ingentaconnect.com/content/jbp/ijcl/2013/00000018/00000004/art00003)). The algorithm is an extention of MI score to 3- and higher *n*-grams and retrieves semantically meaningful phraseological sequences. You need to have installed the following packages for the function to work; *RWeka*, *tm*, and *data.table*. The function *newMI()* returns a data frame with the phraseological sequences identified through the algorithm, the *n* in *n*-grams, their absolute frequency, and their corresponding MI scores. Please see the original paper for the details of the algorithm.
 
 ### Arguments ###
 The arguments the function takes are the following:
